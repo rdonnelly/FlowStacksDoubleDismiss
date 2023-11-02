@@ -10,8 +10,10 @@ import SwiftUI
 @main
 struct FlowStacksDoubleDismissApp: App {
     var body: some Scene {
-        WindowGroup {
-            ContentView()
+        let coordinatorViewModel = AppCoordinatorViewModel()
+        
+        return WindowGroup {
+            return AppCoordinator(coordinatorViewModel: coordinatorViewModel)
         }
     }
 }

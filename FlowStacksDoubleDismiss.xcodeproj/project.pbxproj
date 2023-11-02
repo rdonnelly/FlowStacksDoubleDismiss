@@ -8,17 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		9521BC3E2AF3E75D0070DA02 /* FlowStacksDoubleDismissApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9521BC3D2AF3E75D0070DA02 /* FlowStacksDoubleDismissApp.swift */; };
-		9521BC402AF3E75D0070DA02 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9521BC3F2AF3E75D0070DA02 /* ContentView.swift */; };
 		9521BC422AF3E75E0070DA02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9521BC412AF3E75E0070DA02 /* Assets.xcassets */; };
 		9521BC452AF3E75E0070DA02 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9521BC442AF3E75E0070DA02 /* Preview Assets.xcassets */; };
+		9521BC4D2AF3E7D70070DA02 /* FlowStacks in Frameworks */ = {isa = PBXBuildFile; productRef = 9521BC4C2AF3E7D70070DA02 /* FlowStacks */; };
+		9521BC4F2AF3E7F80070DA02 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9521BC4E2AF3E7F80070DA02 /* AppCoordinator.swift */; };
+		9521BC512AF3E8200070DA02 /* AppCoordinatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9521BC502AF3E8200070DA02 /* AppCoordinatorViewModel.swift */; };
+		9521BC532AF3E86A0070DA02 /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9521BC522AF3E86A0070DA02 /* StackView.swift */; };
+		9521BC572AF3E9570070DA02 /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9521BC562AF3E9570070DA02 /* ModalView.swift */; };
+		9521BC592AF3ECBC0070DA02 /* FlowStacks in Frameworks */ = {isa = PBXBuildFile; productRef = 9521BC582AF3ECBC0070DA02 /* FlowStacks */; };
+		9521BC5B2AF3F0A70070DA02 /* ScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9521BC5A2AF3F0A70070DA02 /* ScreenViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9521BC3A2AF3E75D0070DA02 /* FlowStacksDoubleDismiss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlowStacksDoubleDismiss.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9521BC3D2AF3E75D0070DA02 /* FlowStacksDoubleDismissApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowStacksDoubleDismissApp.swift; sourceTree = "<group>"; };
-		9521BC3F2AF3E75D0070DA02 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9521BC412AF3E75E0070DA02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9521BC442AF3E75E0070DA02 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9521BC4E2AF3E7F80070DA02 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		9521BC502AF3E8200070DA02 /* AppCoordinatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinatorViewModel.swift; sourceTree = "<group>"; };
+		9521BC522AF3E86A0070DA02 /* StackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackView.swift; sourceTree = "<group>"; };
+		9521BC562AF3E9570070DA02 /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
+		9521BC5A2AF3F0A70070DA02 /* ScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +36,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9521BC4D2AF3E7D70070DA02 /* FlowStacks in Frameworks */,
+				9521BC592AF3ECBC0070DA02 /* FlowStacks in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,7 +64,11 @@
 			isa = PBXGroup;
 			children = (
 				9521BC3D2AF3E75D0070DA02 /* FlowStacksDoubleDismissApp.swift */,
-				9521BC3F2AF3E75D0070DA02 /* ContentView.swift */,
+				9521BC4E2AF3E7F80070DA02 /* AppCoordinator.swift */,
+				9521BC502AF3E8200070DA02 /* AppCoordinatorViewModel.swift */,
+				9521BC522AF3E86A0070DA02 /* StackView.swift */,
+				9521BC562AF3E9570070DA02 /* ModalView.swift */,
+				9521BC5A2AF3F0A70070DA02 /* ScreenViewModel.swift */,
 				9521BC412AF3E75E0070DA02 /* Assets.xcassets */,
 				9521BC432AF3E75E0070DA02 /* Preview Content */,
 			);
@@ -83,6 +99,10 @@
 			dependencies = (
 			);
 			name = FlowStacksDoubleDismiss;
+			packageProductDependencies = (
+				9521BC4C2AF3E7D70070DA02 /* FlowStacks */,
+				9521BC582AF3ECBC0070DA02 /* FlowStacks */,
+			);
 			productName = FlowStacksDoubleDismiss;
 			productReference = 9521BC3A2AF3E75D0070DA02 /* FlowStacksDoubleDismiss.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +131,9 @@
 				Base,
 			);
 			mainGroup = 9521BC312AF3E75D0070DA02;
+			packageReferences = (
+				9521BC4B2AF3E7D70070DA02 /* XCRemoteSwiftPackageReference "FlowStacks" */,
+			);
 			productRefGroup = 9521BC3B2AF3E75D0070DA02 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +160,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9521BC402AF3E75D0070DA02 /* ContentView.swift in Sources */,
+				9521BC4F2AF3E7F80070DA02 /* AppCoordinator.swift in Sources */,
+				9521BC512AF3E8200070DA02 /* AppCoordinatorViewModel.swift in Sources */,
+				9521BC572AF3E9570070DA02 /* ModalView.swift in Sources */,
 				9521BC3E2AF3E75D0070DA02 /* FlowStacksDoubleDismissApp.swift in Sources */,
+				9521BC5B2AF3F0A70070DA02 /* ScreenViewModel.swift in Sources */,
+				9521BC532AF3E86A0070DA02 /* StackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,8 +304,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,8 +332,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -342,6 +369,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9521BC4B2AF3E7D70070DA02 /* XCRemoteSwiftPackageReference "FlowStacks" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/johnpatrickmorgan/FlowStacks";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 0.3.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9521BC4C2AF3E7D70070DA02 /* FlowStacks */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9521BC4B2AF3E7D70070DA02 /* XCRemoteSwiftPackageReference "FlowStacks" */;
+			productName = FlowStacks;
+		};
+		9521BC582AF3ECBC0070DA02 /* FlowStacks */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9521BC4B2AF3E7D70070DA02 /* XCRemoteSwiftPackageReference "FlowStacks" */;
+			productName = FlowStacks;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9521BC322AF3E75D0070DA02 /* Project object */;
 }
